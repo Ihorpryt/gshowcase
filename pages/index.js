@@ -1,82 +1,214 @@
 import Head from 'next/head'
+import Image from 'next/image'
+import Script from 'next/script'
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
+    <div class="">
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>s
       </Head>
 
-      <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
-        <h1 className="text-6xl font-bold">
-          Welcome to{' '}
-          <a className="text-blue-600" href="https://nextjs.org">
-            Next.js!
-          </a>
-        </h1>
+      <main>
+        <section class="antialiased bg-blue_9 text-white h-screen p-2 w-screen">
+          <div class="flex flex-col justify-start h-full gap-2">
+            <div class="top-bar flex flex-row justify-between">
 
-        <p className="mt-3 text-2xl">
-          Get started by editing{' '}
-          <code className="p-3 font-mono text-lg bg-gray-100 rounded-md">
-            pages/index.js
-          </code>
-        </p>
+              <div class="logoAndIcon flex flex-row gap-4 items-center">
+                <div class="menuIcon rounded-lg p-2 bg-white_glacier_def hover:bg-white_glacier_hov cursor-pointer duration-300">
+                  <img src="/menu.svg" />
+                </div>
+                <div class="logo flex">
+                  <Image src="/logo.svg" width="158.67" height="14" />
+                </div>
+              </div>
 
-        <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
-          <a
-            href="https://nextjs.org/docs"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Documentation &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Find in-depth information about Next.js features and API.
-            </p>
-          </a>
+              <h1 class="mr-5 font-semibold text-xl tracking-tight self-center">File Manager</h1>
 
-          <a
-            href="https://nextjs.org/learn"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Learn &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Learn about Next.js in an interactive course with quizzes!
-            </p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Examples &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Discover and deploy boilerplate example Next.js projects.
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Deploy &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
+              <div class="userSelector items-center menuIcon rounded-lg bg-white_glacier_def hover:bg-white_glacier_hov cursor-pointer duration-300">
+                <div class="flex flex-row">
+                  <div class="flex items-center justify-center text-xls font-bold text-blue_9 short-name rounded-l-lg">
+                    <p class="opacity-75 leading-tight">TV</p>
+                  </div>   
+                  <div class="flex flex-row items-center p-2">
+                    <p class="mr-2 text-xls font-medium leading-tight">Tommy Vercetti</p>
+                    <Image src="/arrow.svg" width="18" height="18" />
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+            <div class="bg-white rounded-lg h-screen shadow-3xl overflow-scroll">
+              <div class="fixed-bars fixed w-full	pr-4">
+                <div class="table-top-bar backdrop-blur bg-white/50 justify-end rounded-t-lg flex flex-row p-1.5 h-12 shadow-3xl relative z-30">
+                  <div class="secondary-btn cursor-pointer duration-300 rounded-lg inline-flex flex-row flex items-center gap-2">
+                    <Image class="duration-300" src="/filter.svg" width="20" height="20" />
+                    <p class="text-blue_9 font-medium text-sm text-black_10 leading-tight">Filter</p>
+                  </div>
+                  <div class="primary-btn cursor-pointer duration-300 rounded-lg inline-flex flex-row flex items-center gap-2">
+                    <Image src="/plus.svg" width="20" height="20" />
+                    <p class="text-blue_9 font-medium text-sm leading-tight">Add New Files</p>
+                  </div>
+                </div>
+                <div class="flex flex-row items-center pl-4  table-columns h-8 border-b border-blue_0	bg-gray_0/50 backdrop-blur z-10">
+                  <div class="file_name w-64 top-column pr-6 flex items-center text-gray_4 text-xs tracking-wider font-semibold uppercase border-r border-gray_4/20 h-full">
+                    <p>file name</p>
+                  </div>
+                  <div class="file_size w-20 top-column pl-2 pr-6 flex items-center text-gray_4 text-xs tracking-wider font-semibold uppercase border-r border-gray_4/20 h-full">
+                    <p>size</p>
+                  </div>
+                  <div class="file_size w-36 top-column pl-2 pr-6 flex items-center text-gray_4 text-xs tracking-wider font-semibold uppercase border-r border-gray_4/20 h-full">
+                    <p>Trans. No.</p>
+                  </div>
+                  <div class="file_size w-32 top-column pl-2 pr-6 flex items-center text-gray_4 text-xs tracking-wider font-semibold uppercase border-r border-gray_4/20 h-full">
+                    <p>Created date</p>
+                  </div>
+                </div>
+              </div>
+              <div class="rows mt-20">
+                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0">
+                  <p class="text-xls w-64 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">G-123145690.pdf</p>
+                  <p class="text-xls w-20 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5,8 MB</p>
+                  <p class="text-xls w-36 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">DL-1333425256</p>
+                  <p class="text-xls w-32 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5/11/2021</p>
+                </div>
+                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0">
+                  <p class="text-xls w-64 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">G-123145690.pdf</p>
+                  <p class="text-xls w-20 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5,8 MB</p>
+                  <p class="text-xls w-36 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">DL-1333425256</p>
+                  <p class="text-xls w-32 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5/11/2021</p>
+                </div>
+                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0">
+                  <p class="text-xls w-64 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">G-123145690.pdf</p>
+                  <p class="text-xls w-20 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5,8 MB</p>
+                  <p class="text-xls w-36 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">DL-1333425256</p>
+                  <p class="text-xls w-32 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5/11/2021</p>
+                </div>
+                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0">
+                  <p class="text-xls w-64 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">G-123145690.pdf</p>
+                  <p class="text-xls w-20 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5,8 MB</p>
+                  <p class="text-xls w-36 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">DL-1333425256</p>
+                  <p class="text-xls w-32 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5/11/2021</p>
+                </div>
+                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0">
+                  <p class="text-xls w-64 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">G-123145690.pdf</p>
+                  <p class="text-xls w-20 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5,8 MB</p>
+                  <p class="text-xls w-36 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">DL-1333425256</p>
+                  <p class="text-xls w-32 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5/11/2021</p>
+                </div>
+                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0">
+                  <p class="text-xls w-64 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">G-123145690.pdf</p>
+                  <p class="text-xls w-20 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5,8 MB</p>
+                  <p class="text-xls w-36 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">DL-1333425256</p>
+                  <p class="text-xls w-32 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5/11/2021</p>
+                </div>
+                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0">
+                  <p class="text-xls w-64 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">G-123145690.pdf</p>
+                  <p class="text-xls w-20 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5,8 MB</p>
+                  <p class="text-xls w-36 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">DL-1333425256</p>
+                  <p class="text-xls w-32 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5/11/2021</p>
+                </div>
+                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0">
+                  <p class="text-xls w-64 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">G-123145690.pdf</p>
+                  <p class="text-xls w-20 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5,8 MB</p>
+                  <p class="text-xls w-36 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">DL-1333425256</p>
+                  <p class="text-xls w-32 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5/11/2021</p>
+                </div>
+                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0">
+                  <p class="text-xls w-64 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">G-123145690.pdf</p>
+                  <p class="text-xls w-20 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5,8 MB</p>
+                  <p class="text-xls w-36 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">DL-1333425256</p>
+                  <p class="text-xls w-32 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5/11/2021</p>
+                </div>
+                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0">
+                  <p class="text-xls w-64 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">G-123145690.pdf</p>
+                  <p class="text-xls w-20 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5,8 MB</p>
+                  <p class="text-xls w-36 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">DL-1333425256</p>
+                  <p class="text-xls w-32 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5/11/2021</p>
+                </div>
+                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0">
+                  <p class="text-xls w-64 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">G-123145690.pdf</p>
+                  <p class="text-xls w-20 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5,8 MB</p>
+                  <p class="text-xls w-36 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">DL-1333425256</p>
+                  <p class="text-xls w-32 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5/11/2021</p>
+                </div>
+                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0">
+                  <p class="text-xls w-64 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">G-123145690.pdf</p>
+                  <p class="text-xls w-20 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5,8 MB</p>
+                  <p class="text-xls w-36 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">DL-1333425256</p>
+                  <p class="text-xls w-32 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5/11/2021</p>
+                </div>
+                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0">
+                  <p class="text-xls w-64 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">G-123145690.pdf</p>
+                  <p class="text-xls w-20 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5,8 MB</p>
+                  <p class="text-xls w-36 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">DL-1333425256</p>
+                  <p class="text-xls w-32 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5/11/2021</p>
+                </div>
+                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0">
+                  <p class="text-xls w-64 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">G-123145690.pdf</p>
+                  <p class="text-xls w-20 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5,8 MB</p>
+                  <p class="text-xls w-36 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">DL-1333425256</p>
+                  <p class="text-xls w-32 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5/11/2021</p>
+                </div>
+                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0">
+                  <p class="text-xls w-64 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">G-123145690.pdf</p>
+                  <p class="text-xls w-20 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5,8 MB</p>
+                  <p class="text-xls w-36 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">DL-1333425256</p>
+                  <p class="text-xls w-32 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5/11/2021</p>
+                </div>
+                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0">
+                  <p class="text-xls w-64 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">G-123145690.pdf</p>
+                  <p class="text-xls w-20 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5,8 MB</p>
+                  <p class="text-xls w-36 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">DL-1333425256</p>
+                  <p class="text-xls w-32 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5/11/2021</p>
+                </div>
+                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0">
+                  <p class="text-xls w-64 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">G-123145690.pdf</p>
+                  <p class="text-xls w-20 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5,8 MB</p>
+                  <p class="text-xls w-36 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">DL-1333425256</p>
+                  <p class="text-xls w-32 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5/11/2021</p>
+                </div>
+                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0">
+                  <p class="text-xls w-64 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">G-123145690.pdf</p>
+                  <p class="text-xls w-20 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5,8 MB</p>
+                  <p class="text-xls w-36 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">DL-1333425256</p>
+                  <p class="text-xls w-32 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5/11/2021</p>
+                </div>
+                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0">
+                  <p class="text-xls w-64 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">G-123145690.pdf</p>
+                  <p class="text-xls w-20 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5,8 MB</p>
+                  <p class="text-xls w-36 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">DL-1333425256</p>
+                  <p class="text-xls w-32 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5/11/2021</p>
+                </div>
+                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0">
+                  <p class="text-xls w-64 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">G-123145690.pdf</p>
+                  <p class="text-xls w-20 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5,8 MB</p>
+                  <p class="text-xls w-36 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">DL-1333425256</p>
+                  <p class="text-xls w-32 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5/11/2021</p>
+                </div>
+                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0">
+                  <p class="text-xls w-64 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">G-123145690.pdf</p>
+                  <p class="text-xls w-20 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5,8 MB</p>
+                  <p class="text-xls w-36 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">DL-1333425256</p>
+                  <p class="text-xls w-32 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5/11/2021</p>
+                </div>
+                <div id="rowss" class="flex flex-row row h-8 pl-4 border-b border-blue_0">
+                  <p class="text-xls w-64 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">G-123145690.pdf</p>
+                  <p class="text-xls w-20 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5,8 MB</p>
+                  <p class="text-xls w-36 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">DL-1333425256</p>
+                  <p class="text-xls w-32 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5/11/2021</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
-
-      <footer className="flex items-center justify-center w-full h-24 border-t">
-        <a
-          className="flex items-center justify-center"
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="h-4 ml-2" />
-        </a>
-      </footer>
+      <script type="text/javascript" src="/static/common.js"></script>
     </div>
   )
 }

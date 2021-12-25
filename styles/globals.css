@@ -1,3 +1,47 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.menuIcon {
+    box-shadow: 0px 1px 4px 0px #274eb21f, inset 1px 1px 0px 0px #57ff9440, inset -1px -1px 0px 0px #42fff726;
+}
+/* .menuIcon:hover {
+    box-shadow: 0px 1px 4px 0px #274eb21f, inset 1px 1px 3px 1px #57ff957a, inset -1px -1px 1px 0px #42fff685;
+    
+} */
+.short-name {
+    background-color: rgba(255, 255, 255, 0.75);
+    width: 36px;
+    height: 36px;
+}
+.primary-btn {
+    padding: 6px 12px 6px 8px;
+    border: 2px solid rgba(0, 120, 212, 0.4);
+    background-color: rgba(0, 120, 212, 0.15);
+    margin-left: 6px;
+}
+.primary-btn:hover {
+    padding: 6px 12px 6px 8px;
+    border: 2px solid rgba(0, 120, 212, 1);
+    background-color: rgba(0, 120, 212, 0.25);
+}
+.secondary-btn {
+    padding: 6px 12px 6px 8px;
+    border: 1px solid #F4F4F4;
+    margin-left: 6px;
+}
+.secondary-btn img {
+    opacity: 0.4;
+}
+.secondary-btn:hover {
+    padding: 6px 12px 6px 8px;
+    border: 1px solid #E2E5ED;
+}
+.secondary-btn:hover img {
+    opacity: 1;
+}
+.sticky {
+    position: fixed;
+    width: 100%;
+    padding-right: 16px;
+}
