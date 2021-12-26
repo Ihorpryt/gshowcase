@@ -43,7 +43,7 @@ export default function Home() {
                 
               </div>
             </div>
-            <div class="bg-white rounded-lg h-screen shadow-3xl overflow-scroll">
+            <div class="bg-white rounded-lg h-screen shadow-3xl">
               <div class="fixed-bars fixed w-full	pr-4">
                 <div class="table-top-bar backdrop-blur bg-white/50 justify-end rounded-t-lg flex flex-row p-1.5 h-12 shadow-3xl relative z-30">
                   <div class="secondary-btn cursor-pointer duration-300 rounded-lg inline-flex flex-row items-center gap-2">
