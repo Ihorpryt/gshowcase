@@ -71,6 +71,7 @@
 .rows {
     height: 100%;
     scroll-padding-top: 50px;
+    padding-bottom: 38px;
 }
 .rows::-webkit-scrollbar {
     -webkit-appearance: none;

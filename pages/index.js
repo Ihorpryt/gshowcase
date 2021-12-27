@@ -15,9 +15,9 @@ export default function Home() {
       </Head>
 
       <main>
-        <section class="antialiased bg-blue_9 text-white h-screen p-2 w-screen">
+        <section class="antialiased bg-blue_9 text-white h-screen w-screen">
           <div class="flex flex-col justify-start h-full ">
-            <div class="top-bar flex flex-row justify-between mb-2">
+            <div class="top-bar ml-2 m-1.5 mr-2 flex flex-row justify-between mb-2">
 
               <div class="logoAndIcon flex flex-row items-center">
                 <div class="menuIcon rounded-lg p-2 bg-white_glacier_def hover:bg-white_glacier_hov cursor-pointer duration-300">
@@ -39,11 +39,10 @@ export default function Home() {
                     <p class="mr-2 text-xls font-medium leading-tight">Tommy Vercetti</p>
                     <Image src="/arrow.svg" width="18" height="18" />
                   </div>
-                </div>
-                
+                </div>                
               </div>
             </div>
-            <div class="bg-white rounded-lg h-screen shadow-3xl overflow-hidden">
+            <div class="bg-white mr-2 ml-2 mb-2 rounded-lg h-screen shadow-3xl overflow-hidden">
               <div class="fixed-bars fixed w-full	pr-4">
                 <div class="table-top-bar backdrop-blur bg-white/50 justify-end rounded-t-lg flex flex-row p-1.5 h-12 shadow-3xl relative z-30">
                   <div class="secondary-btn cursor-pointer duration-300 rounded-lg inline-flex flex-row items-center gap-2">
@@ -204,7 +203,7 @@ export default function Home() {
                   <p class="text-xls w-32 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5/11/2021</p>
                 </div>
               </div>
-              <div class="bottom-scroll bg-white/50 backdrop-blur border-t border-blue_0 pl-4 pr-4 pt-0.5">
+              <div class="bottom-scroll bg-white/50 backdrop-blur border-t border-blue_0 pl-4 pr-4 pt-0.5 rounded-b-lg">
                 <p class="text-xls text-gray_4">44 records</p>
               </div>
             </div>
