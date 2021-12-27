@@ -1,10 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Script from 'next/script'
 
 export default function Home() {
   return (
-    <div class="">
+    <div>
       <Head>
         <title>Datalink Glacier Showcase</title>
         <link rel="icon" href="/favicon.ico" />
@@ -43,15 +42,15 @@ export default function Home() {
               </div>
             </div>
             <div class="bg-white mr-2 ml-2 mb-2 rounded-lg h-screen shadow-3xl overflow-hidden">
-              <div class="fixed-bars fixed w-full	pr-4">
+              <div class="fixed-bars sticky">
                 <div class="table-top-bar backdrop-blur bg-white/50 justify-end rounded-t-lg flex flex-row p-1.5 h-12 shadow-3xl relative z-30">
-                  <div class="secondary-btn cursor-pointer duration-300 rounded-lg inline-flex flex-row items-center gap-2">
+                  <div class="secondary-btn cursor-pointer duration-300 rounded-lg inline-flex flex-row items-center">
                     <Image class="duration-300" src="/filter.svg" width="20" height="20" />
-                    <p class="font-medium text-sm text-black_10 leading-tight">Filter</p>
+                    <p class="font-medium ml-2 text-sm text-black_10 leading-tight">Filter</p>
                   </div>
-                  <div class="primary-btn cursor-pointer duration-300 rounded-lg inline-flex flex-row items-center gap-2">
+                  <div class="primary-btn cursor-pointer duration-300 rounded-lg inline-flex flex-row items-center">
                     <Image src="/plus.svg" width="20" height="20" />
-                    <p class="text-blue_9 font-medium text-sm leading-tight">Add New Files</p>
+                    <p class="text-blue_9 ml-2 font-medium text-sm leading-tight">Add New Files</p>
                   </div>
                 </div>
                 <div class="flex flex-row items-center pl-4  table-columns h-8 border-b border-blue_0	bg-gray_0/50 backdrop-blur z-10">
@@ -69,7 +68,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div class="rows pt-20 overflow-y-scroll">
+              <div class="rows overflow-y-scroll">
                 <div class="flex flex-row row h-8 pl-4 border-b border-blue_0 duration-300 border-r border-blue_0">
                   <p class="text-xls w-64 pr-6 text-black_10 flex items-center h-full border-r border-gray_0"><a href="#" class="text-blue_9 underline decoration-blue_0 hover:decoration-blue_9 underline-offset-2 duration-300">G-123145690.pdf</a></p>
                   <p class="text-xls w-20 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5,8 MB</p>
@@ -203,7 +202,7 @@ export default function Home() {
                   <p class="text-xls w-32 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5/11/2021</p>
                 </div>
               </div>
-              <div class="bottom-scroll bg-white/50 backdrop-blur border-t border-blue_0 pl-4 pr-4 pt-0.5 rounded-b-lg">
+              <div class="bottom-scroll bg-white/50 backdrop-blur sticky border-t border-blue_0 pl-4 pr-4 pt-0.5 rounded-b-lg">
                 <p class="text-xls text-gray_4">44 records</p>
               </div>
             </div>

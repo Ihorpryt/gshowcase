@@ -47,14 +47,7 @@
 .secondary-btn:hover img {
     opacity: 1;
 }
-.sticky {
-    position: fixed;
-    width: 100%;
-    padding-right: 16px;
-}
-.rows {
-    scroll-margin-top: 50px;
-}
+
 .row:hover {
     background-color: #F4F4F4;
     box-shadow: 0px 1px 4px 0px #274eb21f;
@@ -65,13 +58,11 @@
 }
 .bottom-scroll {
     height: 38px;
-    position: sticky;
     bottom: 0;
 }
 .rows {
     height: 100%;
-    scroll-padding-top: 50px;
-    padding-bottom: 38px;
+    padding-bottom: 118px;
 }
 .rows::-webkit-scrollbar {
     -webkit-appearance: none;
