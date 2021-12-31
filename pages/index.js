@@ -87,7 +87,7 @@ export default function Home() {
             <div class="top-bar ml-2 m-2 mr-2 flex flex-row justify-between mb-2">
 
               <div class="logoAndIcon flex flex-row items-center">
-                <div class="menuIcon rounded-lg p-2 bg-white_glacier_def hover:bg-white_glacier_hov cursor-pointer duration-300">
+                <div class="menuIcon menu-icon rounded-lg p-2 bg-white_glacier_def hover:bg-white_glacier_hov cursor-pointer duration-300">
                   <img src="/menu.svg" />
                 </div>
                 <div class="logo flex ml-4">
@@ -137,133 +137,133 @@ export default function Home() {
                 </div>
               </div>
               <div class="rows overflow-y-scroll">
-                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0 duration-300 border-r border-blue_0">
+                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0 border-r border-blue_0">
                   <p class="text-xls w-64 pr-6 text-black_10 flex items-center h-full border-r border-gray_0"><a href="#" class="text-blue_9 underline decoration-blue_0 hover:decoration-blue_9 underline-offset-2 duration-300">G-123145690.pdf</a></p>
                   <p class="text-xls w-20 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5,8 MB</p>
                   <p class="text-xls w-36 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">DL-1333425256</p>
                   <p class="text-xls w-32 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5/11/2021</p>
                 </div>
-                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0 duration-300 border-r border-blue_0">
+                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0 border-r border-blue_0">
                   <p class="text-xls w-64 pr-6 text-black_10 flex items-center h-full border-r border-gray_0"><a href="#" class="text-blue_9 underline decoration-blue_0 hover:decoration-blue_9 underline-offset-2 duration-300">G-123145690.pdf</a></p>
                   <p class="text-xls w-20 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5,8 MB</p>
                   <p class="text-xls w-36 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">DL-1333425256</p>
                   <p class="text-xls w-32 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5/11/2021</p>
                 </div>
-                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0 duration-300 border-r border-blue_0">
+                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0 border-r border-blue_0">
                   <p class="text-xls w-64 pr-6 text-black_10 flex items-center h-full border-r border-gray_0"><a href="#" class="text-blue_9 underline decoration-blue_0 hover:decoration-blue_9 underline-offset-2 duration-300">G-123145690.pdf</a></p>
                   <p class="text-xls w-20 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5,8 MB</p>
                   <p class="text-xls w-36 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">DL-1333425256</p>
                   <p class="text-xls w-32 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5/11/2021</p>
                 </div>
-                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0 duration-300 border-r border-blue_0">
+                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0 border-r border-blue_0">
                   <p class="text-xls w-64 pr-6 text-black_10 flex items-center h-full border-r border-gray_0"><a href="#" class="text-blue_9 underline decoration-blue_0 hover:decoration-blue_9 underline-offset-2 duration-300">G-123145690.pdf</a></p>
                   <p class="text-xls w-20 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5,8 MB</p>
                   <p class="text-xls w-36 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">DL-1333425256</p>
                   <p class="text-xls w-32 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5/11/2021</p>
                 </div>
-                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0 duration-300 border-r border-blue_0">
+                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0 border-r border-blue_0">
                   <p class="text-xls w-64 pr-6 text-black_10 flex items-center h-full border-r border-gray_0"><a href="#" class="text-blue_9 underline decoration-blue_0 hover:decoration-blue_9 underline-offset-2 duration-300">G-123145690.pdf</a></p>
                   <p class="text-xls w-20 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5,8 MB</p>
                   <p class="text-xls w-36 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">DL-1333425256</p>
                   <p class="text-xls w-32 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5/11/2021</p>
                 </div>
-                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0 duration-300 border-r border-blue_0">
+                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0 border-r border-blue_0">
                   <p class="text-xls w-64 pr-6 text-black_10 flex items-center h-full border-r border-gray_0"><a href="#" class="text-blue_9 underline decoration-blue_0 hover:decoration-blue_9 underline-offset-2 duration-300">G-123145690.pdf</a></p>
                   <p class="text-xls w-20 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5,8 MB</p>
                   <p class="text-xls w-36 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">DL-1333425256</p>
                   <p class="text-xls w-32 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5/11/2021</p>
                 </div>
-                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0 duration-300 border-r border-blue_0">
+                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0 border-r border-blue_0">
                   <p class="text-xls w-64 pr-6 text-black_10 flex items-center h-full border-r border-gray_0"><a href="#" class="text-blue_9 underline decoration-blue_0 hover:decoration-blue_9 underline-offset-2 duration-300">G-123145690.pdf</a></p>
                   <p class="text-xls w-20 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5,8 MB</p>
                   <p class="text-xls w-36 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">DL-1333425256</p>
                   <p class="text-xls w-32 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5/11/2021</p>
                 </div>
-                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0 duration-300 border-r border-blue_0">
+                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0 border-r border-blue_0">
                   <p class="text-xls w-64 pr-6 text-black_10 flex items-center h-full border-r border-gray_0"><a href="#" class="text-blue_9 underline decoration-blue_0 hover:decoration-blue_9 underline-offset-2 duration-300">G-123145690.pdf</a></p>
                   <p class="text-xls w-20 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5,8 MB</p>
                   <p class="text-xls w-36 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">DL-1333425256</p>
                   <p class="text-xls w-32 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5/11/2021</p>
                 </div>
-                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0 duration-300 border-r border-blue_0">
+                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0 border-r border-blue_0">
                   <p class="text-xls w-64 pr-6 text-black_10 flex items-center h-full border-r border-gray_0"><a href="#" class="text-blue_9 underline decoration-blue_0 hover:decoration-blue_9 underline-offset-2 duration-300">G-123145690.pdf</a></p>
                   <p class="text-xls w-20 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5,8 MB</p>
                   <p class="text-xls w-36 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">DL-1333425256</p>
                   <p class="text-xls w-32 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5/11/2021</p>
                 </div>
-                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0 duration-300 border-r border-blue_0">
+                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0 border-r border-blue_0">
                   <p class="text-xls w-64 pr-6 text-black_10 flex items-center h-full border-r border-gray_0"><a href="#" class="text-blue_9 underline decoration-blue_0 hover:decoration-blue_9 underline-offset-2 duration-300">G-123145690.pdf</a></p>
                   <p class="text-xls w-20 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5,8 MB</p>
                   <p class="text-xls w-36 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">DL-1333425256</p>
                   <p class="text-xls w-32 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5/11/2021</p>
                 </div>
-                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0 duration-300 border-r border-blue_0">
+                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0 border-r border-blue_0">
                   <p class="text-xls w-64 pr-6 text-black_10 flex items-center h-full border-r border-gray_0"><a href="#" class="text-blue_9 underline decoration-blue_0 hover:decoration-blue_9 underline-offset-2 duration-300">G-123145690.pdf</a></p>
                   <p class="text-xls w-20 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5,8 MB</p>
                   <p class="text-xls w-36 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">DL-1333425256</p>
                   <p class="text-xls w-32 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5/11/2021</p>
                 </div>
-                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0 duration-300 border-r border-blue_0">
+                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0 border-r border-blue_0">
                   <p class="text-xls w-64 pr-6 text-black_10 flex items-center h-full border-r border-gray_0"><a href="#" class="text-blue_9 underline decoration-blue_0 hover:decoration-blue_9 underline-offset-2 duration-300">G-123145690.pdf</a></p>
                   <p class="text-xls w-20 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5,8 MB</p>
                   <p class="text-xls w-36 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">DL-1333425256</p>
                   <p class="text-xls w-32 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5/11/2021</p>
                 </div>
-                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0 duration-300 border-r border-blue_0">
+                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0 border-r border-blue_0">
                   <p class="text-xls w-64 pr-6 text-black_10 flex items-center h-full border-r border-gray_0"><a href="#" class="text-blue_9 underline decoration-blue_0 hover:decoration-blue_9 underline-offset-2 duration-300">G-123145690.pdf</a></p>
                   <p class="text-xls w-20 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5,8 MB</p>
                   <p class="text-xls w-36 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">DL-1333425256</p>
                   <p class="text-xls w-32 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5/11/2021</p>
                 </div>
-                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0 duration-300 border-r border-blue_0">
+                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0 border-r border-blue_0">
                   <p class="text-xls w-64 pr-6 text-black_10 flex items-center h-full border-r border-gray_0"><a href="#" class="text-blue_9 underline decoration-blue_0 hover:decoration-blue_9 underline-offset-2 duration-300">G-123145690.pdf</a></p>
                   <p class="text-xls w-20 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5,8 MB</p>
                   <p class="text-xls w-36 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">DL-1333425256</p>
                   <p class="text-xls w-32 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5/11/2021</p>
                 </div>
-                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0 duration-300 border-r border-blue_0">
+                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0 border-r border-blue_0">
                   <p class="text-xls w-64 pr-6 text-black_10 flex items-center h-full border-r border-gray_0"><a href="#" class="text-blue_9 underline decoration-blue_0 hover:decoration-blue_9 underline-offset-2 duration-300">G-123145690.pdf</a></p>
                   <p class="text-xls w-20 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5,8 MB</p>
                   <p class="text-xls w-36 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">DL-1333425256</p>
                   <p class="text-xls w-32 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5/11/2021</p>
                 </div>
-                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0 duration-300 border-r border-blue_0">
+                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0 border-r border-blue_0">
                   <p class="text-xls w-64 pr-6 text-black_10 flex items-center h-full border-r border-gray_0"><a href="#" class="text-blue_9 underline decoration-blue_0 hover:decoration-blue_9 underline-offset-2 duration-300">G-123145690.pdf</a></p>
                   <p class="text-xls w-20 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5,8 MB</p>
                   <p class="text-xls w-36 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">DL-1333425256</p>
                   <p class="text-xls w-32 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5/11/2021</p>
                 </div>
-                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0 duration-300 border-r border-blue_0">
+                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0 border-r border-blue_0">
                   <p class="text-xls w-64 pr-6 text-black_10 flex items-center h-full border-r border-gray_0"><a href="#" class="text-blue_9 underline decoration-blue_0 hover:decoration-blue_9 underline-offset-2 duration-300">G-123145690.pdf</a></p>
                   <p class="text-xls w-20 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5,8 MB</p>
                   <p class="text-xls w-36 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">DL-1333425256</p>
                   <p class="text-xls w-32 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5/11/2021</p>
                 </div>
-                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0 duration-300 border-r border-blue_0">
+                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0 border-r border-blue_0">
                   <p class="text-xls w-64 pr-6 text-black_10 flex items-center h-full border-r border-gray_0"><a href="#" class="text-blue_9 underline decoration-blue_0 hover:decoration-blue_9 underline-offset-2 duration-300">G-123145690.pdf</a></p>
                   <p class="text-xls w-20 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5,8 MB</p>
                   <p class="text-xls w-36 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">DL-1333425256</p>
                   <p class="text-xls w-32 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5/11/2021</p>
                 </div>
-                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0 duration-300 border-r border-blue_0">
+                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0 border-r border-blue_0">
                   <p class="text-xls w-64 pr-6 text-black_10 flex items-center h-full border-r border-gray_0"><a href="#" class="text-blue_9 underline decoration-blue_0 hover:decoration-blue_9 underline-offset-2 duration-300">G-123145690.pdf</a></p>
                   <p class="text-xls w-20 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5,8 MB</p>
                   <p class="text-xls w-36 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">DL-1333425256</p>
                   <p class="text-xls w-32 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5/11/2021</p>
                 </div>
-                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0 duration-300 border-r border-blue_0">
+                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0 border-r border-blue_0">
                   <p class="text-xls w-64 pr-6 text-black_10 flex items-center h-full border-r border-gray_0"><a href="#" class="text-blue_9 underline decoration-blue_0 hover:decoration-blue_9 underline-offset-2 duration-300">G-123145690.pdf</a></p>
                   <p class="text-xls w-20 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5,8 MB</p>
                   <p class="text-xls w-36 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">DL-1333425256</p>
                   <p class="text-xls w-32 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5/11/2021</p>
                 </div>
-                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0 duration-300 border-r border-blue_0">
+                <div class="flex flex-row row h-8 pl-4 border-b border-blue_0 border-r border-blue_0">
                   <p class="text-xls w-64 pr-6 text-black_10 flex items-center h-full border-r border-gray_0"><a href="#" class="text-blue_9 underline decoration-blue_0 hover:decoration-blue_9 underline-offset-2 duration-300">G-123145690.pdf</a></p>
                   <p class="text-xls w-20 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5,8 MB</p>
                   <p class="text-xls w-36 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">DL-1333425256</p>
                   <p class="text-xls w-32 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5/11/2021</p>
                 </div>
-                <div id="rowss" class="flex flex-row row h-8 pl-4 border-b border-blue_0 duration-300 border-r border-blue_0">
+                <div id="rowss" class="flex flex-row row h-8 pl-4 border-b border-blue_0 border-r border-blue_0">
                   <p class="text-xls w-64 pr-6 text-black_10 flex items-center h-full border-r border-gray_0"><a href="#" class="text-blue_9 underline decoration-blue_0 hover:decoration-blue_9 underline-offset-2 duration-300">G-123145690_last_item.pdf</a></p>
                   <p class="text-xls w-20 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5,8 MB</p>
                   <p class="text-xls w-36 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">DL-1333425256</p>

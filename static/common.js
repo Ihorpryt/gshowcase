@@ -12,7 +12,7 @@ $(function(){
   // }
 
   $(document).ready(function() {
-    $('.menuIcon').on('click', function() {
+    $('.menu-icon').on('click', function() {
       $('#mySidebar').addClass('visible');
     });
 
