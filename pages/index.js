@@ -15,7 +15,7 @@ export default function Home() {
 
       <main>
 
-        <div id="mySidebar" class="sidebar bg-white/50 backdrop-blur h-full fixed shadow-3xl bg-gradient-to-r from-white">
+        <div id="mySidebar" class="sidebar bg-white/50 glass h-full fixed shadow-3xl bg-gradient-to-r from-white">
           <div class="logoAndIcon flex flex-row items-center p-2 border-b border-gray_0">
                 <div class="close-btn secondary-btn cursor-pointer duration-300 rounded-lg inline-flex flex-row items-center p-1.5">
                     <Image class="duration-300" src="/close.svg" width="20" height="20" />
@@ -111,7 +111,7 @@ export default function Home() {
             </div>
             <div class="bg-white mr-2 ml-2 mb-2 rounded-lg h-screen shadow-3xl overflow-hidden">
               <div class="fixed-bars sticky">
-                <div class="table-top-bar backdrop-blur bg-white/50 justify-end rounded-t-lg flex flex-row p-1.5 h-12 shadow-3xl relative z-30">
+                <div class="table-top-bar bg-white justify-end rounded-t-lg flex flex-row p-1.5 h-12 shadow-3xl relative z-30">
                   <div class="secondary-btn cursor-pointer duration-300 rounded-lg inline-flex flex-row items-center pl-2 pr-3">
                     <Image class="duration-300" src="/filter.svg" width="20" height="20" />
                     <p class="font-medium ml-2 text-sm text-black_10 leading-tight">Filter</p>
@@ -121,7 +121,7 @@ export default function Home() {
                     <p class="text-blue_9 ml-2 font-medium text-sm leading-tight">Add New Files</p>
                   </div>
                 </div>
-                <div class="flex flex-row items-center pl-4  table-columns h-8 border-b border-blue_0	bg-gray_0/50 backdrop-blur z-10">
+                <div class="flex flex-row items-center pl-4  table-columns h-8 border-b border-blue_0	bg-gray_0 z-10">
                   <div class="file_name w-64 top-column pr-6 flex items-center text-gray_4 text-xs tracking-wider font-semibold uppercase border-r border-gray_4/20 h-full">
                     <p>file name</p>
                   </div>
@@ -270,7 +270,7 @@ export default function Home() {
                   <p class="text-xls w-32 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5/11/2021</p>
                 </div>
               </div>
-              <div class="bottom-scroll bg-white/50 backdrop-blur sticky border-t border-blue_0 pl-4 pr-4 pt-0.5 rounded-b-lg">
+              <div class="bottom-scroll bg-white/50 glass sticky border-t border-blue_0 pl-4 pr-4 pt-0.5 rounded-b-lg">
                 <p class="text-xls text-gray_4">44 records</p>
               </div>
             </div>
