@@ -15,7 +15,7 @@ export default function Home() {
 
       <main>
 
-        <div id="mySidebar" class="sidebar bg-white/50 glass h-full fixed shadow-3xl bg-gradient-to-r from-white">
+        <div id="mySidebar" class="sidebar bg-white/70 glass h-full fixed shadow-3xl bg-gradient-to-r from-white">
           <div class="logoAndIcon flex flex-row items-center p-2 border-b border-gray_0">
                 <div class="close-btn secondary-btn cursor-pointer duration-300 rounded-lg inline-flex flex-row items-center p-1.5">
                     <Image class="duration-300" src="/close.svg" width="20" height="20" />
@@ -270,7 +270,7 @@ export default function Home() {
                   <p class="text-xls w-32 pl-2 pr-6 text-black_10 flex items-center h-full border-r border-gray_0">5/11/2021</p>
                 </div>
               </div>
-              <div class="bottom-scroll bg-white/50 glass sticky border-t border-blue_0 pl-4 pr-4 pt-0.5 rounded-b-lg">
+              <div class="bottom-scroll bg-white/70 glass sticky border-t border-blue_0 pl-4 pr-4 pt-0.5 rounded-b-lg">
                 <p class="text-xls text-gray_4">44 records</p>
               </div>
             </div>
